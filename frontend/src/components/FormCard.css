@@ -1,0 +1,58 @@
+.form-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  overflow: hidden;
+  animation: slideUp 0.3s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.form-card-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.form-card-header h2 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.form-card-body {
+  padding: 2rem;
+}
+
+.form-card-footer {
+  padding: 1.5rem 2rem;
+  background: #f8f9fa;
+  text-align: center;
+  border-top: 1px solid #e9ecef;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.form-card-footer a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 0.5rem;
+}
+
+.form-card-footer a:hover {
+  text-decoration: underline;
+}
+

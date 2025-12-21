@@ -1,0 +1,161 @@
+.auth-form {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  font-family: inherit;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.form-help {
+  display: block;
+  margin-top: 0.5rem;
+  color: #666;
+  font-size: 0.85rem;
+}
+
+.field-error {
+  display: block;
+  margin-top: 0.5rem;
+  color: #dc3545;
+  font-size: 0.85rem;
+}
+
+.forgot-password-link {
+  color: #667eea;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.forgot-password-link:hover {
+  text-decoration: underline;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 0.875rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin-top: 0.5rem;
+}
+
+.submit-button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.submit-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.error-message {
+  background: #fee;
+  border: 1px solid #fcc;
+  color: #c33;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.error-message strong {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.error-explanation {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #fcc;
+}
+
+.error-explanation h4 {
+  margin-bottom: 0.75rem;
+  color: #333;
+  font-size: 1rem;
+}
+
+.error-explanation p {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.success-message {
+  background: #efe;
+  border: 1px solid #cfc;
+  color: #3c3;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.password-feedback {
+  background: #f0f7ff;
+  border: 1px solid #b3d9ff;
+  color: #004085;
+  padding: 1.25rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.password-feedback h4 {
+  margin-bottom: 1rem;
+  color: #004085;
+  font-size: 1rem;
+}
+
+.strength-indicator {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.password-feedback p {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+.password-feedback ul {
+  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+.password-feedback li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
