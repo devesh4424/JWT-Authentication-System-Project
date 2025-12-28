@@ -11,6 +11,10 @@ A modern, secure authentication system built with Node.js, Express, MongoDB, Rea
 - 🎨 **Modern UI**: Beautiful, responsive React frontend with gradient design
 - 🔒 **Security Best Practices**: Input validation, token invalidation, secure password handling
 
+## Project Screenshot
+
+![JWT-Authentication-Project](./ss.png)
+
 ## Tech Stack
 
 ### Backend
